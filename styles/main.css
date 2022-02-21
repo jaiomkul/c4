@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+}
+
+#sidebar {
+    flex: 2;
+}
+
+#main {
+    flex: 8;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+#main div {
+    width: 400px;
+}
+img{
+    width: 300px;
+}
